@@ -16,6 +16,17 @@ The container provides:
 The web app does **not** start automatically when you enter the container.  
 Instead, you are dropped into a shell and can choose what to run.
 
+The image is available at https://hub.docker.com/repository/docker/vcgalpin/xps_dcc_app/
+
+To run this image, use
+```
+docker run -d \
+  --name tempdb_web_shell \
+  -p 8080:8081 \
+  -v tempdb_web_shell_pgdata:/opt/postgres-data \
+  vcgalpin/xps_dcc_app:tempdb_web_shell_test
+```
+
 ---
 
 ## Files
