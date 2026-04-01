@@ -30,7 +30,7 @@ and to restart it, use
 ```
 docker start -ai tempdb_web_shell
 ```
-**Note:** This image does not provide the functionality of `run-web-shell.sh` which is described below.
+**Note:** This image does *not* provide the functionality of `run-web-shell.sh`. This functionality can only be accessed when building the image rather than just running the image.
 
 ---
 
