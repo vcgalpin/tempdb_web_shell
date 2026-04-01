@@ -156,7 +156,7 @@ git log --oneline -n 5
 The container is started with this mapping:
 
 - host port `8081`
-- container port `8080`
+- container port `8081`
 
 So if you start the web app inside the container, it should be reachable at:
 
